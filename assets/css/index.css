@@ -80,7 +80,6 @@ body {
     grid-template-columns: 1fr;
     align-items: stretch;
     justify-content: center;
-    
 }
 
 .card-large .card-header {
@@ -162,3 +161,9 @@ footer {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(229, 100%, 77%); text-decoration: none; }
 .attribution a:hover { text-decoration: underline; }
+
+@media screen and (max-width: 730px) {
+    .card-large .card-body {
+        flex-direction: row;
+    }
+}
