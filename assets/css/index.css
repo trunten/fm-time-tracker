@@ -114,11 +114,18 @@ body {
     padding: 40px;
     z-index: 1;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+    grid-template-rows: 0.8fr 1fr;
 }
 
 .card-large .card-header h1 {
     font-weight: 300;
+    margin: 10px 0;
+}
+
+.card-large .card-header p {
+    color: var(--pale-blue);
+    font-size: 0.85em;
 }
 
 .card-large .card-body {
@@ -200,10 +207,15 @@ footer {
         flex-direction: row;
     }
 
+    .card-large .card-header h1 {
+        font-size: 1.3em;
+        margin: 5px 0
+    }
+
     .card-large .card-header {
+        padding: 30px;
         grid-template-columns: auto auto;
         grid-template-rows: 1fr;
         align-items: center;
-        /* justify-content: space-between; */
     }
 }

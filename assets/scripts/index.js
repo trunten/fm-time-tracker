@@ -50,5 +50,5 @@ for (let el of document.querySelectorAll(".user .card-body p")) {
     el.addEventListener("click", selectionChange);
 }
 
-// document.getElementById("weekly").click();
+// document.getElementById("daily").click();
 
