@@ -115,7 +115,7 @@ body {
     z-index: 1;
     display: grid;
     column-gap: 20px;
-    grid-template-rows: 0.8fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .card-large .card-header h1 {
@@ -205,6 +205,7 @@ footer {
 @media screen and (max-width: 623px) {
     .card-large .card-body {
         flex-direction: row;
+        padding-top: 40px;
     }
 
     .card-large .card-header h1 {
@@ -214,7 +215,7 @@ footer {
 
     .card-large .card-header {
         padding: 30px;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto 2fr;
         grid-template-rows: 1fr;
         align-items: center;
     }
